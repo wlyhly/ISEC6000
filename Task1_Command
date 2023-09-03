@@ -1,0 +1,4 @@
+gcloud config set project isec6000assignment1
+gcloud config set compute/zone us-central1-a
+gcloud container clusters create-auto isec6000-cluster1 \--location=us-central1
+gcloud container clusters get-credentials isec6000-cluster1 \--location us-central1
